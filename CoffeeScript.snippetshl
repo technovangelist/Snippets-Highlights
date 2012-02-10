@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>coffeescript</string>
+	<key>Name</key>
+	<string>CoffeeScript</string>
+	<key>Extension</key>
+	<string>coffee</string>
+	<key>Multiline</key>
+	<dict>
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>###</string>
+				<key>End String</key>
+				<string>###</string>
+			</dict>
+		</array>
+		<key>Strings</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;</string>
+				<key>End String</key>
+				<string>&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&quot;&quot;&quot;</string>
+				<key>End String</key>
+				<string>&quot;&quot;&quot;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;</string>
+				<key>End String</key>
+				<string>&apos;</string>
+			</dict>
+			<dict>
+				<key>Start String</key>
+				<string>&apos;&apos;&apos;</string>
+				<key>End String</key>
+				<string>&apos;&apos;&apos;</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Line</key>
+	<dict>
+		
+		<key>Comments</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>#</string>
+			</dict>
+		</array>
+		<key>Regular Expressions</key>
+		<array>
+			<dict>
+				<key>Start String</key>
+				<string>/</string>
+				<key>End String</key>
+				<string>/</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Identifier</key>
+	<dict>
+		<key>Keywords</key>
+		<array>
+			<string></string>
+			<string>-&gt;</string>
+			<string>=</string>
+			<string>-</string>
+			<string>+</string>
+			<string>?</string>
+			<string>@</string>
+			<string>and</string>
+			<string>catch</string>
+			<string>class</string>
+			<string>do</string>
+			<string>else</string>
+			<string>extends</string>
+			<string>false</string>
+			<string>finally</string>
+			<string>for</string>
+			<string>if</string>
+			<string>in</string>
+			<string>is</string>
+			<string>isnt</string>
+			<string>new</string>
+			<string>not</string>
+			<string>of</string>
+			<string>or</string>
+			<string>return</string>
+			<string>switch</string>
+			<string>then</string>
+			<string>true</string>
+			<string>try</string>
+			<string>typeof</string>
+			<string>unless</string>
+			<string>until</string>
+			<string>when</string>
+			<string>while</string>
+
+		</array>
+		<key>Custom Identifiers</key>
+		<array>
+			<string>undefined</string>
+			<string>null</string>
+			<string>no</string>
+			<string>on</string>
+			<string>yes</string>
+			<string>true</string>
+			<string>false</string>
+			<string>undefined</string>
+		</array>
+	</dict>
+</dict>
+</plist>
